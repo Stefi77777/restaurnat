@@ -11,7 +11,7 @@ function Home() {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY`;
+    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyD-LPjsidbjlpQWZvM5vuObshlHsaOgUik`;
     script.async = true;
     script.onload = () => {
       const map = new window.google.maps.Map(document.getElementById("map"), {
